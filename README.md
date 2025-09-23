@@ -1,17 +1,17 @@
-# Nuxt 3 Minimal Starter
+# Vue 3 + Vite Badge DApp
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A Vue 3 application built with Vite for managing community badges on the blockchain.
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
 # npm
 npm install
+
+# yarn
+yarn install
 
 # pnpm
 pnpm install
@@ -19,7 +19,7 @@ pnpm install
 
 ## Development Server
 
-Start the development server on http://localhost:3000
+Start the development server on http://localhost:5173
 
 ```bash
 npm run dev
@@ -39,4 +39,19 @@ Locally preview production build:
 npm run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Features
+
+- Connect wallet (MetaMask)
+- Award badges to community members
+- Check badge ownership
+- Revoke badges (lead only)
+- View transaction history
+
+## Technologies
+
+- Vue 3
+- Vite
+- TypeScript
+- Tailwind CSS
+- PrimeVue
+- Ethers.js
